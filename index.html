@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محول العملات المحترف</title>
+    <!-- ربط ملف CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>محول العملات المحترف</h1>
+            <p>تحويل سريع ودقيق بين العملات العالمية والعربية</p>
+        </div>
+
+        <div class="converter-box">
+            <div class="input-group">
+                <label for="from-currency">من العملة</label>
+                <select id="from-currency">
+                    <option value="USD">الدولار الأمريكي (USD)</option>
+                    <option value="EUR">اليورو (EUR)</option>
+                    <option value="SAR">الريال السعودي (SAR)</option>
+                    <option value="YER">الريال اليمني (YER)</option>
+                    <option value="EGP">الجنيه المصري (EGP)</option>
+                    <!-- إضافة المزيد حسب الحاجة -->
+                </select>
+            </div>
+
+            <button class="swap-btn" id="swap-btn">
+                <i class="fas fa-exchange-alt"></i>
+            </button>
+
+            <div class="input-group">
+                <label for="to-currency">إلى العملة</label>
+                <select id="to-currency">
+                    <option value="YER">الريال اليمني (YER)</option>
+                    <option value="USD">الدولار الأمريكي (USD)</option>
+                    <option value="EUR">اليورو (EUR)</option>
+                    <option value="SAR">الريال السعودي (SAR)</option>
+                    <option value="EGP">الجنيه المصري (EGP)</option>
+                    <!-- إضافة المزيد حسب الحاجة -->
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="amount">المبلغ</label>
+                <div class="amount-container">
+                    <input type="number" id="amount" placeholder="أدخل المبلغ" min="0" step="0.01">
+                    <span class="currency-symbol" id="currency-symbol">$</span>
+                </div>
+            </div>
+
+            <button class="convert-btn" onclick="convertCurrency()">
+                تحويل العملة
+            </button>
+        </div>
+
+        <div class="result" id="result">
+            <div class="amount"></div>
+            <div class="rate"></div>
+        </div>
+
+        <div class="features">
+            <div class="feature-item">
+                <i class="fas fa-sync-alt"></i>
+                <p>تحديث تلقائي</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-shield-alt"></i>
+                <p>آمن وموثوق</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-bolt"></i>
+                <p>تحويل فوري</p>
+            </div>
+        </div>
+    </div>
+    <!-- ربط ملف JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
