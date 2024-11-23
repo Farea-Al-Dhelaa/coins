@@ -20,9 +20,11 @@ A simple and intuitive **currency converter** built using **HTML, CSS, and JavaS
 
 ## Demo 🚀
 
-![Currency Converter Screenshot](./demo-image.png) <!-- Add your project's screenshot here -->
-
-Try it live: [Currency Converter Demo](https://your-demo-link.com)
+## 📸 Screenshots
+<p align="center">
+  <img src="https://github.com/Farea-Al-Dhelaa/coins/blob/main/Screenshot%202024-11-23%20135527.png">
+ 
+</p>
 
 ---
 
@@ -36,4 +38,3 @@ Try it live: [Currency Converter Demo](https://your-demo-link.com)
 #  JS ,Css and Html
 العملات
 Application good For convert between coins
-https://github.com/Farea-Al-Dhelaa/coins/blob/main/Screenshot%202024-11-23%20135527.png
